@@ -8,11 +8,8 @@ import {
   Download, Upload, ChevronDown, ChevronUp, Check,
 } from "lucide-react";
 
-/* ----------------------------- Speicher ------------------------------ */
-/* localStorage funktioniert auf der gehosteten Seite (GitHub Pages).    */
-/* In der Claude-Vorschau ist es gesperrt – dann läuft alles im Speicher */
-/* der Sitzung und der JSON-Export dient als Backup.                     */
-
+const SUPABASE_URL = "https://lhfphavogdvnzwuvnyur.supabase.co/rest/v1/";
+    const SUPABASE_ANON_KEY = "sb_publishable_K_sJ6M5Enb7vfueJJvNN-Q_QvaDckvR";
 const STORAGE_KEY = "sport-tracker-v1";
 const memoryStore = {};
 
