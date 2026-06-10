@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 const SUPABASE_URL = "https://lhfphavogdvnzwuvnyur.supabase.co/rest/v1/";
-    const SUPABASE_ANON_KEY = "sb_publishable_K_sJ6M5Enb7vfueJJvNN-Q_QvaDckvR";
+const SUPABASE_ANON_KEY = "sb_publishable_K_sJ6M5Enb7vfueJJvNN-Q_QvaDckvR";
 const STORAGE_KEY = "sport-tracker-v1";
 const memoryStore = {};
 
