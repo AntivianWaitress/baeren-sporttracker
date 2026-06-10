@@ -41,8 +41,7 @@ function saveData(data) {
 
 const SUPABASE_URL = "https://lhfphavogdvnzwuvnyur.supabase.co/rest/v1/";
 const SUPABASE_ANON_KEY = "sb_publishable_K_sJ6M5Enb7vfueJJvNN-Q_QvaDckvR";
-
-const TOKEN_KEY = "sport-tracker-token";
+const TOKEN_KEY = "dc3f5dd92af759d7ccaff8c3426711f16f7f";
 
 function getToken() {
   let fromHash = null;
