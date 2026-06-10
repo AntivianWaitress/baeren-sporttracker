@@ -8,8 +8,6 @@ import {
   Download, Upload, ChevronDown, ChevronUp, Check,
 } from "lucide-react";
 
-const SUPABASE_URL = "https://lhfphavogdvnzwuvnyur.supabase.co/rest/v1/";
-const SUPABASE_ANON_KEY = "sb_publishable_K_sJ6M5Enb7vfueJJvNN-Q_QvaDckvR";
 const STORAGE_KEY = "sport-tracker-v1";
 const memoryStore = {};
 
@@ -40,13 +38,9 @@ function saveData(data) {
   }
 }
 
-/* ------------------------------- Sync --------------------------------- */
-/* Supabase-Sync per Geheimlink: Der Token steckt im URL-Fragment (#k=…)  */
-/* und wird lokal gemerkt. Ohne Konfiguration läuft die App rein lokal.   */
-/* >>> Nach dem Supabase-Setup hier die beiden Werte eintragen: <<<       */
 
-const SUPABASE_URL = "https://DEIN-PROJEKT.supabase.co";
-const SUPABASE_ANON_KEY = "DEIN-ANON-KEY";
+const SUPABASE_URL = "https://lhfphavogdvnzwuvnyur.supabase.co/rest/v1/";
+const SUPABASE_ANON_KEY = "sb_publishable_K_sJ6M5Enb7vfueJJvNN-Q_QvaDckvR";
 
 const TOKEN_KEY = "sport-tracker-token";
 
