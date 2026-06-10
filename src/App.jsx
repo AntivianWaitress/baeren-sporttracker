@@ -40,7 +40,7 @@ function saveData(data) {
 
 
 const SUPABASE_URL = "https://lhfphavogdvnzwuvnyur.supabase.co/rest/v1/";
-const SUPABASE_ANON_KEY = "sb_publishable_K_sJ6M5Enb7vfueJJvNN-Q_QvaDckvR";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxoZnBoYXZvZ2R2bnp3dXZueXVyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwOTAzNzQsImV4cCI6MjA5NjY2NjM3NH0.Iy-wx5RP8VLXkp0zurnR1BvlDmY-H36yE1uVgko8-eI";
 const TOKEN_KEY = "dc3f5dd92af759d7ccaff8c3426711f16f7f";
 
 function getToken() {
